@@ -9,7 +9,7 @@ public class findMissingNumberInArray {
          return  expectedSum  -actualSum;
       
     }
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         int a []={1,2,3,4,6};
         System.out.println(findMissingNumberInArrays(a));
     }
