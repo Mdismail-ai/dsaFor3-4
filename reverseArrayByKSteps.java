@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class reverseArrayByKSteps {
     public static void reverseArrayByKStepss(int a [] , int steps){
+        steps = steps%a.length;
          reverseArray(a,0,steps-1);
          reverseArray(a, steps,a.length-1);
          reverseArray(a, 0, a.length-1);
